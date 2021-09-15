@@ -1,0 +1,129 @@
+h1{
+    text-align:center;
+    color:rgb(250, 77, 9) !important;
+    margin-top:10%;
+    font:60px Lobster;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  }
+  
+  p{
+    color:rgb(250, 77, 9);
+    text-align:center;
+    font:15px Lobster;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  }
+  
+.key{
+  background: rgba(190, 176, 170, 0.3);
+}
+.btn-wrap{
+    margin:0 auto;
+    width:200px;
+    padding-top:50px;
+  }
+  
+  .btn-wrap a{
+    background:rgb(240, 102, 22);
+    color:#FFF;
+    position:relative;
+    margin-left: 16%;
+    padding:15px;
+    font-weight:900 !important;
+    text-transform:uppercase;
+    border-radius:5px;
+    font:14px lato;
+    opacity:0.9;
+    letter-spacing:1px;
+    text-decoration:none;
+    
+  }
+  
+  .btn-wrap a:hover{
+    opacitY:1;
+  }
+  .btn-wrap a:active{
+    top:4px;
+  }
+  
+  
+  a:hover, a:focus {
+    color: rgb(240, 102, 22) !important;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  li {
+      float: left;
+  }
+  
+  li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffff !important;
+  }
+  
+  
+  li.dropdown {
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .btn-wrap-go a {
+    background: rgb(240, 102, 22);
+    color: #FFF;
+    position: relative;
+    margin-left: 10%;
+    /* margin-bottom: -10%; */
+    padding: 15px;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font: 14px lato;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+ div.one{  
+ background-position: center;
+		width:400px;
+        height:150px;
+		background-color:black;
+		color:white;
+		opacity:0.8;
+     }
